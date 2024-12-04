@@ -1,5 +1,5 @@
 
-const dataNamoro = new Date('2024-08-16T00:00:00');
+const dataNamoro = new Date('2024-11-18T00:00:00');
 
 function atualizarContagem() {
     const agora = new Date();
@@ -25,8 +25,8 @@ setInterval(atualizarContagem, 1000);
 atualizarContagem();
 
 const imagens = [
-    'img/img2.jpeg',
-    'img/img1.jpeg',
+    'img/img1.jpg',
+    'img/img2.jpg',
     'img/img3.jpg',
     'img/img4.jpg'
 ];
